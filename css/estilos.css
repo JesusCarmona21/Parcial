@@ -1,0 +1,58 @@
+.divContainer{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    padding: 25px;
+    background-color: white;
+    background: none;
+
+}
+
+body{
+    color: white;
+}
+
+img{
+    margin: 0;
+}
+
+.divIzquierdoContainer{
+    width: 40%;
+    background-color: black;
+    display: flex;
+    height: 400px;
+
+}
+
+.divIzquierdoContainer p{
+    margin: 4px;
+
+}
+
+.divDerechoContainer{
+    width: 40%;
+    display: flex;
+    height: 400px;
+
+}
+
+.divIzquierdo{
+    width: 50%;
+    height: 400px;
+    justify-content: center;
+    background: red;
+    display: grid;
+    color: white;
+
+}
+
+.divDerecho{
+    width: 50%;
+    height: 400px;
+    justify-content: center;
+    background: blue;
+    display: grid;
+    color: white;
+}
+
