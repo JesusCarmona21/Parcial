@@ -4,9 +4,7 @@
     width: 100%;
     justify-content: center;
     padding: 25px;
-    background-color: white;
-    background: none;
-
+   background: none;
 }
 
 body{
@@ -20,13 +18,13 @@ img{
 .divIzquierdoContainer{
     width: 40%;
     background-color: black;
-    display: flex;
+    display: grid;
     height: 400px;
 
 }
 
 .divIzquierdoContainer p{
-    margin: 4px;
+    margin: 5px;
 
 }
 
@@ -34,6 +32,7 @@ img{
     width: 40%;
     display: flex;
     height: 400px;
+    justify-content: center;
 
 }
 
@@ -43,7 +42,6 @@ img{
     justify-content: center;
     background: red;
     display: grid;
-    color: white;
 
 }
 
@@ -53,6 +51,9 @@ img{
     justify-content: center;
     background: blue;
     display: grid;
-    color: white;
+}
+
+.divDerecho p{
+    margin: 5px;
 }
 
